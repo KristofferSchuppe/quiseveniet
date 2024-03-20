@@ -1,0 +1,46 @@
+{
+  "name": "quiseveniet",
+  "version": "1.0.0",
+  "author": "LeathaMurazik",
+  "description": "Pure-JS printf",
+  "keywords": [
+    "quia",
+    "similique",
+    "culpa",
+    "string"
+  ],
+  "bin": {
+    "printj": "./bin/printj.njs"
+  },
+  "main": "./printj",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "",
+    "uglify-js": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KristofferSchuppe/quiseveniet.git"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "config": {
+    "blanket": {
+      "pattern": "printj.js"
+    }
+  },
+  "files": [
+    "printj.js",
+    "bin/printj.njs",
+    "LICENSE",
+    "README.md",
+    "dist/*.js",
+    "dist/*.map",
+    "dist/LICENSE"
+  ],
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=0.8"
+  }
+}
